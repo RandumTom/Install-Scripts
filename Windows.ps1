@@ -27,9 +27,24 @@ winget install -e --id gimp.gimp
 winget install -e --id GitHub.Copilot
 winget install -e --id GitHub.GitHubDesktop
 winget install -e --id Google.EarthPro
+winget install -e --id OpenJS.NodeJS.LTS
+winget install -e --id Logitech.OptionsPlus
+winget install -e --id Modrinth.ModrinthApp
+winget install -e --id MullvadVPN.MullvadBrowser
+winget install -e --id OBSProject.OBSStudio
+winget install -e --id Surfshark.Surfshark
+winget install -e --id Python.Python.3
+winget install -e --id TexasInstruments.TI-Nspire.CXCASStudent
+winget install -e --id CharlesMilette.TranslucentTB
+winget install -e --id Ultimaker.Cura
+winget install -e --id 9WZDNCRFJBB1 --source msstore
+winget install -e --id Samsung.GalaxyBudsManager
 
 #Remove Bloatware
 winget remove -e --id Microsoft.Edge
 winget remove -e --id Xbox.XboxGameBar
 winget remove -e --id 9WZDNCRFJ3Q2
-winget remove -e --id 9MV0B5HZVK9Z --source msstore
+winget remove -e --id 9MV0B5HZVK9Z 
+
+#Install Programs from npm
+npm install -g @google/gemini-cli
