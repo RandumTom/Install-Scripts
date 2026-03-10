@@ -1,3 +1,6 @@
+#Install App Installer
+winget install -e --id 9NBLGGH4NNS1 --source msstore
+
 #Update System
 winget upgrade --all
 
@@ -17,9 +20,13 @@ winget install -e --id 9P94LH3Q1CP5 --source msstore
 winget install -e --id Microsoft.WSL
 winget install -e --id EpicGames.EpicGamesLauncher
 winget install -e --id Google.QuickShare
-winget install -e --id 
+winget install -e --id Elgato.WaveLink
+winget install -e --id Mircosoft.VisualStudioCode
+winget install -e --id Mozzila.Firefox.DeveloperEdition
+winget install -e --id gimp.gimp
 
 #Remove Bloatware
 winget remove -e --id Microsoft.Edge
 winget remove -e --id Xbox.XboxGameBar
 winget remove -e --id 9WZDNCRFJ3Q2
+winget remove -e --id 9MV0B5HZVK9Z --source msstore
