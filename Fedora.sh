@@ -38,3 +38,16 @@ flatpak install -y flathub \
     cc.arduino.IDE2 \
     com.modrinth.ModrinthApp \
     com.surfshark.Surfshark
+
+
+#Install Homebrew
+sudo dnf groupinstall 'Development Tools'
+sudo dnf install curl git
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+#Install Software with Homebrew
+sudo brew install gemini-cli
