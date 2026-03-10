@@ -15,6 +15,8 @@ sudo dnf install -y \
     rpi-imager \
     python3 \
     python3-pip \
+    discord \
+    vlc \
 
 # Installing with COPR
 sudo dnf copr enable scottames/vicinae \
