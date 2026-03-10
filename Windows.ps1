@@ -22,4 +22,4 @@ winget install -e --id
 #Remove Bloatware
 winget remove -e --id Microsoft.Edge
 winget remove -e --id Xbox.XboxGameBar
-winget remove -e --id Microsoft.
+winget remove -e --id 9WZDNCRFJ3Q2
