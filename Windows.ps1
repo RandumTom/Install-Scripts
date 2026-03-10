@@ -24,6 +24,9 @@ winget install -e --id Elgato.WaveLink
 winget install -e --id Mircosoft.VisualStudioCode
 winget install -e --id Mozzila.Firefox.DeveloperEdition
 winget install -e --id gimp.gimp
+winget install -e --id GitHub.Copilot
+winget install -e --id GitHub.GitHubDesktop
+winget install -e --id Google.EarthPro
 
 #Remove Bloatware
 winget remove -e --id Microsoft.Edge
