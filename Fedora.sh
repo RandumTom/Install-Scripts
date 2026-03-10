@@ -17,6 +17,8 @@ sudo dnf install -y \
     python3-pip \
     discord \
     vlc \
+    gimp \
+    obs-studio \
 
 # Installing with COPR
 sudo dnf copr enable scottames/vicinae \
