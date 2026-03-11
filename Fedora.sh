@@ -20,19 +20,19 @@ sudo dnf install -y \
     vlc \
     gimp \
     obs-studio \
-    snapd \
+    snapd
 
 # Installing with COPR
-sudo dnf copr enable scottames/vicinae \
-sudo dnf install -y vicinae \
+sudo dnf copr enable -y scottames/vicinae
+sudo dnf install -y vicinae
 
-sudo dnf copr enable sneexy/zen-browser \
-sudo dnf install -y zen-browser \
+sudo dnf copr enable -y sneexy/zen-browser
+sudo dnf install -y zen-browser
 
 #Install Software that isn't on DNF
-curl -f https://zed.dev/install.sh | sh \
-curl -fsSL https://ollama.com/install.sh | sh \
-curl -fsSL https://tailscale.com/install.sh | sh \
+curl -f https://zed.dev/install.sh | sh
+curl -fsSL https://ollama.com/install.sh | sh
+curl -fsSL https://tailscale.com/install.sh | sh
 
 #Install Software from Flathub
 flatpak install -y flathub \
