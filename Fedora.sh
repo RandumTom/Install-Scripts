@@ -8,6 +8,7 @@ sudo dnf upgrade -y
 sudo dnf install -y \
     git \
     htop \
+    docker \
     fastfetch \
     flatpak \
     firefox \
@@ -19,6 +20,7 @@ sudo dnf install -y \
     vlc \
     gimp \
     obs-studio \
+    snapd \
 
 # Installing with COPR
 sudo dnf copr enable scottames/vicinae \
@@ -51,3 +53,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 #Install Software with Homebrew
 sudo brew install gemini-cli
+
+#Install Software with Snap
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install fusion360 --edge
